@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pullrequest</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <script src="https://kit.fontawesome.com/e3805e7bb5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <header class="ancho arriba">
+    <img src="imagenes/pullrequest-logo.svg" alt="" class="img1">
+    </header>
+    <nav class="ancho">
+        <div class="icono" id="iconomenu">
+            <a href="#">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div class="menu" id="cajamenu">
+            <a href="#">Inicio</a>
+            <a href="#">Empresas</a>
+            <a href="#">Servicios</a>
+            <a href="#">Clientes</a>
+            <a href="#">Ubicacion</a>
+            <a href="#">Contactanos</a>
+        </div>
+    </nav>
+    <article class="ancho cuadro">
+        <div class="texto">
+            <h1>Creacion de pagina web</h1>
+            <h3>Cursos basicos de HTML y CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque magnam consequuntur quisquam ratione maxime, animi iste omnis! Ullam repudiandae quis recusandae voluptatibus libero perspiciatis ipsam, magni quas nam pariatur?</p>
+            <button id="btn_mostrar">VER</button>
+        </div>
+        <div class="img2" id="fotito">
+            <img src="imagenes/foto_pullrequest.svg" alt="" class="img21">
+        </div>
+    </article>
+<!--FUNCIONES JAVASCRIPT-->
+<script>
+    $("#iconomenu").click(function(){
+        $("#cajamenu").slideToggle();
+    })
+
+    $("#btn_mostrar").click(function(){
+        $("#fotito").slideToggle();
+    })
+
+
+</script>
+
+
+
+</body>
+</html>

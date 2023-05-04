@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+.ancho{
+    max-width: 1200px;
+    margin: auto; 
+    border: 1px red solid;
+}
+
+.arriba{
+    background-color: #ccc;
+    text-align: center;
+
+}
+
+.img1{
+    max-width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icono{
+    border: 1px red solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: none;
+}
+.icono a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 35px;
+}
+
+.menu{
+    /*border: 1px blue solid;*/
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+   /* border: 1px purple solid;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    border: 1px purple solid;
+}
+
+.img2{
+    border: 1px blue solid;
+    display: none;
+}
+
+.img21{
+    max-width: 600px;
+}
